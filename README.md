@@ -4,6 +4,10 @@
 
 In this challenge, you design and build a Data Model and a RESTful API that stores data into a Relational Database.
 
+## Data Scheme Image
+
+![Data Scheme](data/data_scheme.png)
+
 ## Instructions
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
