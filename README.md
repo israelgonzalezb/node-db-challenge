@@ -4,6 +4,10 @@
 
 In this challenge, you design and build a Data Model and a RESTful API that stores data into a Relational Database.
 
+## Data Scheme Image
+
+![Data Scheme](data/data_scheme.png)
+
 ## Instructions
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
@@ -40,11 +44,18 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
-- [ ] Why do tables need a `primary key`?
+  - A relational database is a structure used for data that has different relationships. These relationships are represented as foreign keys, and each entity will generally have its own unique id. SQL is Structured Query Language, which is used to change and manage relational databases. SQL is also used to pull information and change how it is represented for whatever use case the client has.
+
+* [ ] Why do tables need a `primary key`?
+
+  - Primary keys are necessary because each individual entity needs to be able to be referenced. A primary key is a unique identifier for a row of data within a table, which makes it easy to reference from other tables, and to pinpoint specifically using SQL.
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+  - Foreign key.
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+  - For many-to-many relationships, we need to create a third table to store the relationships between the first two tables. that third table is usually labeled or titled table1_table2 so as to clarify the relationships between the three tables. This table then needs a column for the primary keys of the first table, and the primary keys of the second table. Each record represents a relationship between records in the first two tables.
 
 ## Minimum Viable Product
 
